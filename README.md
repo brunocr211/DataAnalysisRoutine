@@ -1,6 +1,6 @@
 # Análise de dados de empregos
 
-Este repositório contém um Jupyter Notebook para a análise de dados de empregos usando Python e várias bibliotecas. O notebook aborda várias etapas fundamentais do processo de análise de dados, incluindo extração, limpeza, transformação e agrupamento de dados. Abaixo, você encontrará uma visão geral de cada seção do notebook.
+Este repositório contém um Jupyter Notebook para a análise de dados de empregos usando Python e várias bibliotecas. O notebook aborda várias etapas fundamentais do processo de análise de dados, incluindo extração, limpeza, transformação e agrupamento de dados. Abaixo, você encontrará uma visão geral de cada seção do notebook
 
 ## Índice
 
