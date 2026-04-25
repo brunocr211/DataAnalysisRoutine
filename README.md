@@ -1,6 +1,6 @@
 # Análise de dados de empregos
 
-Este repositório contém um Jupyter Notebook para a análise de dados de empregos usando Python e várias bibliotecas. O notebook aborda várias etapas fundamentais do processo de análise de dados, incluindo extração, limpeza, transformação e agrupamento de dados. Abaixo, você encontrará uma visão geral de cada seção do notebook
+Este repositório contém um Jupyter Notebook para a análise de dados de empregos usando Python e várias bibliotecas. O notebook aborda várias etapas fundamentais do processo de análise de dados, incluindo extração, limpeza, transformação e agrupamento de dados. Abaixo, você encontrará uma visão geral de cada seção do notebook.
 
 ## Índice
 
@@ -37,3 +37,15 @@ Esta seção envolve a criação de uma matriz TF-IDF a partir do corpus de carg
 ## 6. Agrupamento com K-Means
 
 Nesta parte, o notebook aplica o algoritmo de agrupamento K-Means para agrupar cargos com base em suas representações TF-IDF. Ele usa a classe KMeans do Scikit-Learn para criar clusters e atribui rótulos de cluster aos cargos.
+
+## 7. Visualização de dados
+
+Esta seção procura visualizar os cargos agrupados utilizando PCA para redução de dimensionalidade e Matplotlib e Seaborn para a representação gráfica. Ela gera um gráfico de dispersão para visualizar os pontos de dados em duas dimensões.
+
+## 8. Criação de um SparkContext e leitura dos dados
+
+Aqui, o notebook utiliza o PySpark para criar um SparkContext e uma SparkSession. Ele lê os dados JSON dos arquivos criados anteriormente (‘jobs_1.json’ e ‘jobs_2.json’) em DataFrames do Pandas e, em seguida, os converte em um DataFrame do PySpark chamado ‘jobs_dataFrame’.
+
+## 9. Criação de um pipeline e agrupamento por meio do algoritmo K-Means
+
+Na seção final, o notebook cria um pipeline de processamento e modelagem de dados usando o MLlib do PySpark. Ele tokeniza os cargos, remove palavras irrelevantes, calcula características TF-IDF e aplica o algoritmo de agrupamento K-Means. Os resultados são exibidos, e as primeiras 25 linhas são mostradas.
