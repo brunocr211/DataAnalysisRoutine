@@ -49,3 +49,5 @@ Aqui, o notebook utiliza o PySpark para criar um SparkContext e uma SparkSession
 ## 9. Criação de um pipeline e agrupamento por meio do algoritmo K-Means
 
 Na seção final, o notebook cria um pipeline de processamento e modelagem de dados usando o MLlib do PySpark. Ele tokeniza os cargos, remove palavras irrelevantes, calcula características TF-IDF e aplica o algoritmo de agrupamento K-Means. Os resultados são exibidos, e as primeiras 25 linhas são mostradas.
+
+Este Jupyter Notebook oferece um guia completo para a coleta, limpeza, análise e agrupamento de dados de tarefas utilizando diversas bibliotecas e ferramentas Python. Ele foi elaborado para fins educacionais e pode ser usado como referência para tarefas semelhantes de análise de dados.
